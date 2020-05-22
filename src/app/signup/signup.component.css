@@ -1,0 +1,45 @@
+.background{
+    background: teal;
+    min-height: 100vh;
+    padding:25vh;
+}
+
+.container{
+    background: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+    min-height: 50vh;
+    padding:3rem;
+    text-align: center;
+    border-radius: 0% 30%;
+}
+
+.container h3{
+    font-size: 4rem;
+    margin:20px;
+}
+
+.container p{
+    margin: 30px;
+    font-size: 1.5rem;
+}
+
+.background1 {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  #googleLogin{
+      background: url(../../assets/google-logo.png) no-repeat center center/cover;
+      height: 100px;
+      width: 100px;
+      margin: auto;
+      margin-top:50px;
+  }
+
+  #googleLogin:hover{
+      cursor: pointer;
+  }
